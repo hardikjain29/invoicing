@@ -1,14 +1,86 @@
-.container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.logo {
+  color: #cf9d6f;
+}
+.timely {
+  width: 300px;
+  height: auto;
+  padding: 40px;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.timely .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.timely .divider {
+  padding-top: 10px;
+}
+.timely .form {
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.timely input {
+  outline: none;
+  border: 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 40px;
+  background: #272727;
+  color: white;
+  border-bottom: 2px solid #0500ff;
+  padding: 10px;
+  font-size: 14px;
+}
+.timely input:placeholder {
+  font-size: 14px;
+  color: #bbc4c9;
+}
+.timely input:focus {
+  background: white;
+  color: black;
+}
+.timely .timer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 40px;
+}
+.timely .timer .content {
+  font-weight: 300;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+.timely .timer .type {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+  text-transform: uppercase;
   text-align: center;
 }
-
-.container h2 {
-  font-size: 5rem;
+.timely .play {
+  background: #0500ff;
+  height: 45px;
+  width: 45px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
 }
-
-.container a {
-  font-size: 1.4rem;
+.timely .play .triangle {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid white;
 }
